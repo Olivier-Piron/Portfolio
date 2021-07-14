@@ -18,6 +18,7 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: #fafafa;
+    overflow-x: hidden;
 }
 
 nav {
@@ -71,24 +72,21 @@ a:hover:after {
     align-items: center;
     justify-content: center;
     height: 120vh;
+    max-width: 90vw;
     flex-direction: column;
 }
+
+
 
 .title:hover {
     cursor: default;
 }
 
 .title h1 {
-    margin-top: -4rem;
+
     font-size: 4rem;
     color: #fafafa;
     font-family: 'Playfair Display', serif;
-}
-
-@media (max-width: 900px) {
-    .title h1 {
-        margin-left: 2rem;
-    }
 }
 
 .highlight {
@@ -131,6 +129,10 @@ a:hover:after {
     transition: .2s;
 }
 
+.project {
+    max-width: 90vw;
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -140,7 +142,7 @@ a:hover:after {
    
 .card img {
     height: auto;
-    width: 35rem;
+    width: 30rem;
     vertical-align: middle;
 }
 
@@ -222,6 +224,12 @@ a:hover:after {
     margin: auto;
     margin-bottom: 2rem;
 	border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+    .about-card {
+        padding: 1rem;
+    }
 }
 
 .about h3 {
