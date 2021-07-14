@@ -221,6 +221,7 @@ a:hover:after {
     background-color: #111827;
     margin: auto;
     margin-bottom: 2rem;
+	border-radius: 5px;
 }
 
 .about h3 {
