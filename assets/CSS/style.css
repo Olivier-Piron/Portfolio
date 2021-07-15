@@ -160,6 +160,7 @@ a:hover:after {
 	height: auto;
 	width: 30rem;
 	vertical-align: middle;
+	border-radius: 10px;
 }
 
 @media screen and (max-width: 600px) {
